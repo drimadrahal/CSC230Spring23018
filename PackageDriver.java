@@ -1,13 +1,6 @@
 import edu.csbsju.cs.*;
 
 {  
-   public static void main(String[] args)
-   {  
-     ArrayList<String> x;
-      // because of the import statement, we don't have to edu.csbsju.cs.Employee here
-       Employee harry = new Employee("Harry Hacker", 50000, 1989, 10, 1);
-       //edu.csbsju.cs.Employee harry = new edu.csbsju.cs.Employee("Harry Hacker", 50000, 1989, 10, 1);
-
       // raise salary by 5%
       harry.raiseSalary(5);
 
